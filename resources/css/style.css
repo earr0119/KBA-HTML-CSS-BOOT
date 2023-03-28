@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: aquamarine;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.logo{
+    height: 6rem;
+    width: 6rem;
+
+}
+.nav-list{
+    list-style-type: none;/*No bullet points*/
+}
+.list-item{
+    display: inline-block;
+    padding: 1rem 0.5rem;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: blueviolet;
+}
+.container{
+    width: 100%;
+    border: 0.1rem solid rgba(137, 43, 226, 0.314);
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.table tr{
+    border: 0.1rem solid rgba(39, 23, 54, 0.94);
+    background-color: rgba(127, 255, 212, 0.16);
+    border-collapse: collapse;
+}
+.table th,
+.table td{
+    padding: 0.5rem;
+    text-align: center;
+}
+.table thead th{
+    background-color: rgba(14, 149, 104, 0.432);
+    font-size: 1.3rem;
+}
+.table tbody td{
+    font-size: 1rem;
+}
+.table tbody tr:hover{
+    background-color: rgba(0, 251, 251, 0.459);
+}
+.table tbody td:hover{
+    background-color: rgba(165, 197, 193, 0.486);
+}
+#main{
+    margin-top: 3rem;
+}
+.title h3{
+    font-size: 2rem;
+    text-align: center;
+}
+.flex-imgs{
+    background-color: rgba(127, 255, 212, 0.215);
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 0;
+    position:sticky;
+}
+.picture{
+    margin: 4%;
+}
+.picture img{
+    width: 100%;
+    height: 50vh;
+    padding: 2rem;
+}
+.picture h3{
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    color: rgb(11, 11, 11);
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 0.08rem;
+}
+.picture h3:hover{
+    background-color: rgba(221, 73, 237, 0.297);
+}
+.form-information{
+ margin: 3rem;
+}
+.form, 
+div h3{
+    margin: 7rem;
+    text-align: center;
+    color: rgb(17, 18, 18);
+    font-size: 2rem;
+    line-height: 0.9;
+}
+.form-one, 
+h3{
+    text-align: center;
+    color: black;
+    font-size: 1.25rem;
+}
+form{
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: rgba(23, 153, 233, 0.538);
+}
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 14px;
+    border: none;
+}
+#button{
+    padding: 20px;
+    color: rgb(15, 16, 16);
+    background-color: rgba(84, 105, 108, 0.396);
+}
